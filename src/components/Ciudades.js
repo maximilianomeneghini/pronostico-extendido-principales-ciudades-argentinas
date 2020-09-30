@@ -70,10 +70,6 @@ const Ciudades = () => {
           title: "Ciudad",
           dataIndex: "name",
           key: "name",
-          sorter: {
-            compare: (a, b) => a.name - b.name,
-            multiple: 10,
-          },
           render: (text) => <a>{text}</a>,
         },
         {
